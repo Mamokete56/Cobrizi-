@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cobrizi Mokwepa - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cobrizi Mokwepa</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="achievements.html">Achievements</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Image Section -->
+    <section class="hero">
+      <img src="images/cobrizi-hero.jpg" alt="Cobrizi Mokwepa Hero Image" class="hero-img">
+      <h2>Welcome to the Official Website of Cobrizi Mokwepa</h2>
+      <p>Explore the life, career, and legacy of a visionary.</p>
+    </section>
+
+    <!-- Introduction -->
+    <section class="intro">
+      <h3>Who is Cobrizi Mokwepa?</h3>
+      <p>Cobrizi Mokwepa is a respected figure in [insert field here] known for leadership, talent, and passion. His journey is a story of resilience and impact.</p>
+    </section>
+
+    <!-- Embedded Video -->
+    <section class="video-section">
+      <h3>Watch His Story</h3>
+      <div class="video-wrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                title="Cobrizi Mokwepa Video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery">
+      <h3>Gallery</h3>
+      <div class="gallery-grid">
+        <img src="images/cobrizi1.jpg" alt="Cobrizi speaking">
+        <img src="images/cobrizi2.jpg" alt="Cobrizi event">
+        <img src="images/cobrizi3.jpg" alt="Cobrizi with fans">
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+      <h3>Explore More</h3>
+      <ul>
+        <li><a href="about.html">About Cobrizi</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cobrizi Mokwepa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
