@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cobrizi Mokwepa - Images</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cobrizi Mokwepa - Image Gallery</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="images.html">Images</a>
+    <a href="media.html">Videos</a>
+  </nav>
+
+  <main>
+    <section class="gallery">
+      <img src="images/cobrizi1.jpg" alt="Cobrizi at a conference">
+      <img src="images/cobrizi2.jpg" alt="Cobrizi giving a speech">
+      <img src="images/cobrizi3.jpg" alt="Cobrizi outdoor portrait">
+      <img src="images/cobrizi4.jpg" alt="Cobrizi working on a project">
+      <img src="images/cobrizi5.jpg" alt="Cobrizi with awards">
+      <!-- Add or replace with real images -->
+    </section>
+  </main>
+</body>
+</html>
